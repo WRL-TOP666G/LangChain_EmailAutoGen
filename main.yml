@@ -1,0 +1,9 @@
+name: FastAPI CI/CD
+
+on:
+  # Trigger the workflow on push
+jobs:
+  push:
+    branches:
+      # Push events on main branch
+      - main
