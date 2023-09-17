@@ -12,7 +12,7 @@ jobs:
 jobs:
   # Define the runner used in the workflow
   runs-on: ubuntu-latest
-    steps:
+  steps:
     # Check out repo so our workflow can access it
     - uses: actions/checkout@v2
 
