@@ -55,7 +55,7 @@ jobs:
       - name: Add main.py, emailAutoGen.py, prompt.txt, .env to Zip file
         run: zip api.zip -u main.py && zip api.zip -u emailAutoGen.py && zip api.zip -u prompt.txt && zip api.zip -u .env
       - name: Upload zip file artifact
-        uses: actions/upload-artifact@v2aws
+        uses: actions/upload-artifact@v2
         with:
           name: api
           path: api.zip
